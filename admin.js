@@ -1,6 +1,6 @@
 import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm';
-const SUPABASE_URL='PASTE_YOUR_SUPABASE_URL';
-const SUPABASE_ANON_KEY='PASTE_YOUR_SUPABASE_ANON_KEY';
+const SUPABASE_URL='https://oyozlzoxxdvxmdjipcmf.supabase.co';
+const SUPABASE_ANON_KEY='sb_publishable_nIhBXF05viKsJ8vLqUbdnA_yF7mOLkO';
 const supabase=createClient(SUPABASE_URL,SUPABASE_ANON_KEY);
 const $=id=>document.getElementById(id);
 let filter='pending';
