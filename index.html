@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ROSEMONT | The Honor Society</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="logo" href="#">ROSEMONT<small>THE HONOR SOCIETY</small></a>
+  <nav><a href="#spotted">Spotted</a><a href="#tea">The Tea</a><a href="#confessions">Confessions</a><a href="#honor">Honor Roll</a><a href="#classes">Between Classes</a></nav>
+  <a class="send" href="#send">Send a Gossip ↗</a>
+</header>
+<main>
+<section class="hero">
+  <div class="hero-copy"><p class="eyebrow">WELCOME TO ROSEMONT</p><h1>Good grades.<br><i>Bad decisions.</i><br>Great stories.</h1><p class="lead">The unofficial society page for everything happening between the bells.</p><a class="button" href="#spotted">Enter the Society</a></div>
+  <div class="hero-image"><img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=85" alt="Elegant university building"></div>
+</section>
+<div class="ticker"><span>WHERE STRAIGHT-A STUDENTS HAVE SECRETS TOO</span><span>WHERE STRAIGHT-A STUDENTS HAVE SECRETS TOO</span><span>WHERE STRAIGHT-A STUDENTS HAVE SECRETS TOO</span></div>
+<section id="spotted" class="section"><div class="section-head"><p class="eyebrow">01 / SPOTTED</p><h2>Seen between the bells.</h2><p>Whispers, sightings and moments that somehow became everyone's business.</p></div>
+<div class="grid" id="posts">
+<article class="card featured"><img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1000&q=85"><div><span>SPOTTED · TODAY</span><h3>Someone has been leaving handwritten notes in the library.</h3><p>Three notes. Same handwriting. Different books. Coincidence?</p></div></article>
+<article class="card"><img src="https://images.unsplash.com/photo-1529390079861-591de354faf5?auto=format&fit=crop&w=800&q=85"><span>BETWEEN CLASSES</span><h3>The hallway alliance nobody saw coming.</h3></article>
+<article class="card"><img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=800&q=85"><span>THE TEA</span><h3>New seating chart. New social hierarchy.</h3></article>
+</div></section>
+<section id="tea" class="quote"><p class="eyebrow">THE TEA</p><blockquote>“In a school full of overachievers, someone has to tell the stories.”</blockquote><small>— THE ROSEMONT SOCIETY</small></section>
+<section id="confessions" class="section two"><div><p class="eyebrow">02 / CONFESSIONS</p><h2>Things better said anonymously.</h2></div><div class="confession"><p>“I absolutely did not study for that exam. I simply manifested the grade.”</p><span>— Anonymous, apparently</span></div><div class="confession"><p>“If you're wondering who keeps stealing the good pens from room 204... no comment.”</p><span>— Anonymous</span></div></section>
+<section id="honor" class="dark"><p class="eyebrow">03 / HONOR ROLL</p><h2>Not everything worth knowing is on the noticeboard.</h2><div class="honor-grid"><div>01 <b>Academic</b><span>Top of the class, bottom of the group chat.</span></div><div>02 <b>Social</b><span>Every hallway has a headline.</span></div><div>03 <b>Style</b><span>Uniforms, but make them editorial.</span></div></div></section>
+<section id="classes" class="section"><p class="eyebrow">04 / BETWEEN CLASSES</p><h2>The five-minute stories.</h2><div class="mini-grid"><div><b>01</b><p>Who was late?</p></div><div><b>02</b><p>Who changed seats?</p></div><div><b>03</b><p>Who knows something?</p></div></div></section>
+<section id="send" class="submit"><div><p class="eyebrow">SEND A GOSSIP</p><h2>You know something.<br>We know what to do with it.</h2><p class="muted">Submissions are anonymous and reviewed before publication.</p></div>
+<form id="gossipForm"><label>Your gossip<textarea id="message" required maxlength="1000" placeholder="Spill the tea..."></textarea></label><label>Optional nickname<input id="nickname" maxlength="40" placeholder="Anonymous"></label><button class="button" type="submit">Submit anonymously ↗</button><p id="status"></p></form></section>
+</main>
+<footer><b>ROSEMONT</b><span>THE HONOR SOCIETY</span><span>Good grades. Bad decisions. Great stories.</span></footer>
+<script src="app.js"></script>
+</body></html>

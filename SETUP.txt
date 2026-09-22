@@ -1,0 +1,15 @@
+ROSEMONT BACKEND SETUP
+
+1. Create a Supabase project.
+2. In Supabase SQL Editor, paste and run supabase/schema.sql.
+3. In Authentication, create one admin user with email + password.
+4. Copy your Project URL and anon/publishable key.
+5. Open admin.js and replace:
+   PASTE_YOUR_SUPABASE_URL
+   PASTE_YOUR_SUPABASE_ANON_KEY
+6. The admin page is admin.html.
+7. Connect the public form in app.js to Supabase insert() so submissions are stored.
+8. Deploy the folder to your hosting provider.
+
+SECURITY:
+Do NOT put a Supabase service_role/secret key in browser code. Only the public anon/publishable key belongs in frontend code. The SQL policies are intended to keep the moderation queue accessible only to authenticated users.
